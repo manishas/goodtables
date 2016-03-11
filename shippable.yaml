@@ -5,6 +5,9 @@ python:
   - 3.3
   - 3.4
 
+services:
+  - redis
+
 install:
   - pip install --upgrade -r requirements/base.txt
   - pip install --upgrade -r requirements/test.txt
